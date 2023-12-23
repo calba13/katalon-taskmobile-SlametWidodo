@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Verifikasi Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5341411d-c925-4750-a5e3-224895676c88</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b28b00d0-7f62-44af-8bdf-0a0bd299fdc2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34fb9bbb-04bc-4d32-99ed-ea0f7f96216b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7ce7693-5067-48af-b471-d10903101e27</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e91f2166-913a-4f41-8062-0f90fb8649ce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MR.QC'</defaultValue>
+      <description></description>
+      <id>b28b00d0-7f62-44af-8bdf-0a0bd299fdc2</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcHacktiv8@mail.com'</defaultValue>
+      <description></description>
+      <id>34fb9bbb-04bc-4d32-99ed-ea0f7f96216b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'9845671230'</defaultValue>
+      <description></description>
+      <id>e7ce7693-5067-48af-b471-d10903101e27</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aquarius Building, Pondok Indah'</defaultValue>
+      <description></description>
+      <id>e91f2166-913a-4f41-8062-0f90fb8649ce</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>
