@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Verification Title Category Selected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa334939-8b22-4bca-86f6-35bc03ab65ce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0bd20c7-a4cb-4f5d-b96a-a67211b711c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Fashions'</defaultValue>
+      <description></description>
+      <id>b0bd20c7-a4cb-4f5d-b96a-a67211b711c3</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+</TestCaseEntity>

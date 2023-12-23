@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Select Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63b6cd18-ae81-4483-ab06-6ea080ec0d5d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d50a9c1-2988-47a6-844e-2cfdccfee02c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Fashions'</defaultValue>
+      <description></description>
+      <id>7d50a9c1-2988-47a6-844e-2cfdccfee02c</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+</TestCaseEntity>
