@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-Select Category</name>
+   <name>TS-Select and Verification Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -19,16 +19,25 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>05dd0a04-def6-4077-9544-fd067a701a74</guid>
+      <guid>1589bdfe-afd5-402d-90c6-a760189a053e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC-CATEGORY/TC-Select Category</testCaseId>
+      <testCaseId>Test Cases/TC-CATEGORY/TC-Verification Title Category Selected</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>52471ee7-dbaa-43ab-a7fb-0c6ba613e1b3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CategoryData</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7d50a9c1-2988-47a6-844e-2cfdccfee02c</variableId>
+         <testDataLinkId>52471ee7-dbaa-43ab-a7fb-0c6ba613e1b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>b0bd20c7-a4cb-4f5d-b96a-a67211b711c3</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
