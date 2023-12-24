@@ -1,11 +1,10 @@
 package assigmentTigaKW
 
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 
+import internal.GlobalVariable
 import io.appium.java_client.AppiumDriver
 import io.appium.java_client.MobileElement
 
@@ -36,8 +35,8 @@ public class category {
 					LOOP: break
 				}
 			}
-			
-			Mobile.delay(1.5)
+
+			Mobile.delay(GlobalVariable.MaxLoading)
 			Mobile.takeScreenshot()
 
 			defaultVar["messageList"] << ["message" : "TestCase : ${tcTitle}"]
