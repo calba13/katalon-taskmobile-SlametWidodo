@@ -16,6 +16,7 @@ public class category {
 		def defaultVar = new customKW.common().defaultVar();
 		String tcTitle = "Select Category"
 		try {
+			Mobile.delay(GlobalVariable.MaxLoading)
 
 			AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 
@@ -29,8 +30,9 @@ public class category {
 			LOOP: for (int dataSelection = 0; dataSelection < items_count; dataSelection++) {
 
 				MobileElement itemCategory = dataItems.get(dataSelection).findElementByXPath("//*[@class = 'android.widget.TextView' and @resource-id = 'com.solodroid.solomerce:id/category_name']")
-
+				new customKW.common().cetak("ini isi defaultVar : ${itemCategory.getText()}");
 				if (itemCategory.getText() == category) {
+					new customKW.common().cetak("KLIK");
 					itemCategory.click()
 					LOOP: break
 				}
@@ -52,6 +54,8 @@ public class category {
 			defaultVar["messageList"] << ["message" : "QC STATUS : NOT GOOD"]
 			defaultVar["messageList"] << ["message" : ""]
 		}
+
+
 
 		return defaultVar
 	}
